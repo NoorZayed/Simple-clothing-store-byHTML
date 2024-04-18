@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form action ="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method = "post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"/>
+            <br/>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea> <br/>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="ps">Palestine</option>
+                <option value="jo">Jordan</option>
+                <option value="sy">Syria</option>
+            </select>
+            <br/>
+            <label for="terms">Agree to terms and conditions:</label>
+            <input type="checkbox" id="terms" name="terms" value="agreed">
+            <br/>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br/>
+            <input type = "submit" name = "action" value = "Send"/>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - NURz</title>
+    <style>
+        
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        .image-section {
+            flex: 1;
+        }
+        .form-section {
+            flex: 1;
+            background-color: #b45d64;
+            padding: 20px;
+            color: white;
+        }
+        .intro {
+            margin-bottom: 20px;
+        }
+        form {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NURz Store</h1>
+        <p>Your Fashion Destination</p>
+        <nav>
+            <a href="index.html" class="button">Home</a>
+            <a href="products.html" class="button">Products</a>
+            <a href="contactt.html" class="button">Contact Us</a>
+        </nav>
+    </header>
+    <style>
+         header {
+        background-image: url("pic/NuR.png"); /* Path to your logo image */
+        background-size: contain; /* Adjust the size of the background image */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+        background-position: right; /* Center the background image */
+        padding: 30px; /* Add padding to the header for better spacing */
+         text-align: center;
+
+nav a {
+    color: black;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+    }
+    h2 {
+            text-align: center;
+        }
+        .button {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        background-color: #4e0212;
+                        color: white;
+                        text-decoration: none;
+                        border-radius: 5px;
+                    }
+                    
+                    .button:hover {
+                        background-color: #eccb3b;
+                    }
+    </style>
+    <main>
+        <section style=" border-bottom: 1px solid #ccc; padding-bottom: 20px;">
+            <h1>Got questions? We can help.</h1>
+            <p>Simply fill out the form, or call us at 0599231429.</p>
+        </section>
+        <div class="container">
+            <div class="image-section">
+                <img src="pic/co.png" alt="ana" width="900" height="450">
+                <h1>Your success is our success.</h1>
+                <p>If you have questions about DELIVERY AND RETURNS or need further details and support, we are here to help you.<br>
+                Please fill out the form, and our experts will contact you shortly.<br>
+                For immediate assistance, call us at 0599231429.</p>
+            </div>
+            <section class="form-section">
+                <div class="intro">
+                    <h3>Submit your contact info below, and we’ll get in touch ASAP.</h3>
+                    <p>Enter your details.</p>
+                </div>
+                <h3>Contact Form</h3>
+                <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+                    <label for="sender-first-name">First Name:</label>
+                    <input type="text" id="sender-first-name" name="sender-first-name"  placeholder="Your first name.." required><br>
+                    <label for="sender-last-name">Last Name:</label>
+                    <input type="text" id="sender-last-name" name="sender-last-name" placeholder="Your last name.." required><br>
+                    <label for="sender-email">Email:</label>
+                    <input type="email" id="sender-email" name="sender-email" placeholder="Your email.." required><br>
+                    
+                    <label for="sender-phone">Phone:</label>
+                    <input type="tel" id="sender-phone" name="sender-phone" placeholder="123-456-7890" required><br>
+                    <label for="address">Address:</label><br>
+                    <textarea id="address" name="address" placeholder="Your address.." required></textarea><br>
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" placeholder="Your city.." required><br>
+                    <label for="country">Country:</label>
+                   <select id="country" name="country">
+                   <option value="palestine">Palestine</option>
+                   <option value="egypt">Egypt</option>
+                   <option value="australia">Australia</option>
+                   <option value="canada">Canada</option>
+                   <option value="usa">USA</option>
+                   </select><br>
+                    <label for="message-subject">Message Subject:</label>
+                    <input type="text" id="message-subject" name="message-subject" required><br>
+                    <label for="message-body">Message Body:</label><br>
+                    <textarea id="message-body" name="message-body" rows="4" required></textarea><br>
+                    <button type="submit" class="button">Send</button>
+                    <button type="reset" class="button">Reset</button>
+
+                </form>
+               
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Last Updated: March 29, 2024</p>
+        <p>Address: AL-Jehad.ST, Ramallah, Palestine</p>
+        <p>Customer Support: 0599231429 | support@nurstore.com</p>
+        <p><a href="contactt.html">Contact Us</a></p>
+    </footer>
+    <style>footer {
+        background-color: #FFC0CB; /* Baby pink color */
+        padding: 15px; /* Add padding for spacing */
+    }
+    </style>
+</body>
+</html>
+

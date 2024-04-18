@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE> Example of an HTML FORM </TITLE>
+</HEAD>
+<BODY>
+<H1>HTML FORM Example </H1>
+<BLOCKQUOTE>
+
+<FORM  ACTION="http://localhost:8088" method ="post">
+
+<P><B>Search String:</B> <INPUT TYPE="text" NAME="search_string" SIZE=24>  
+<P><B>Search Type:</B> 
+
+<SELECT NAME="search_type">
+  <OPTION> Insensitive Substring
+  <OPTION SELECTED> Exact Match
+  <OPTION> Sensitive Substring
+  <OPTION> Regular Expression
+</SELECT>
+<P><B> Search databases in:</B>
+  [<INPUT TYPE="checkbox" NAME="servers" VALUE="Canada" CHECKED>Canada]
+  [<INPUT TYPE="checkbox" NAME="servers" VALUE="Russia">Russia]
+  [<INPUT TYPE="checkbox" NAME="servers" VALUE="Sweden">Sweden]
+  [<INPUT TYPE="checkbox" NAME="servers" VALUE="U.S.A.">U.S.A.] 
+  <BR><SMALL><EM>Multiple items can be selected.)</EM></SMALL>
+
+<P><B>Niceness: </B>
+<UL>
+<LI> <INPUT TYPE="radio" NAME="niceness" VALUE="nicest" CHECKED > Nicest
+<LI> <INPUT TYPE="radio" NAME="niceness" VALUE="nice" >   Nice rrrrrrrrr
+<LI> <INPUT TYPE="radio" NAME="niceness" VALUE="not nice"> Not Nice
+<LI> <INPUT TYPE="radio" NAME="niceness" VALUE="nasty" >  Nasty
+</UL>
+<P> <INPUT TYPE="submit" NAME="sub" VALUE="Start Search"> 
+    <INPUT TYPE="reset" VALUE="Reset Form">
+
+</FORM>
+</BLOCKQUOTE>
+<HR>
+<ADDRESS>  Form by <A HREF="about_the_author.html"> I.S.G</A> </ADDRESS>
+</BODY> </HTML>

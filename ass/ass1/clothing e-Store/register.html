@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Registration Form</title>
+</head>
+<body>
+  <header>
+    <h1>NURz Store</h1>
+    <p>Your Fashion Destination</p>
+    <nav>
+        <a href="index.html" class="button">Home</a>
+        <a href="products.html" class="button">Products</a>
+        <a href="contactt.html" class="button">Contact Us</a>
+    </nav>
+</header>
+<style>
+     header {
+    background-image: url("pic/NuR.png"); /* Path to your logo image */
+    background-size: contain; /* Adjust the size of the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: right; /* Center the background image */
+    padding: 30px; /* Add padding to the header for better spacing */
+     text-align: center;
+
+nav a {
+color: black;
+padding: 10px 20px;
+margin: 0 5px;
+border: 1px solid black;
+border-radius: 5px;
+}
+
+}
+h2 {
+        text-align: center;
+    }
+    .form-section {
+      background-image: url("pic/sig.png"); 
+            background-size: cover; /* Adjust the size of the background image */
+            background-position: center; /* Center the background image */
+            color: white; /* Set text color to white */
+            padding: 20px; /* Add padding for better visibility */
+        }
+  
+</style>
+<section class="form-section">
+  <h1>Customer Registration Form</h1>
+  
+  <form method="post" action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" style="width: 20%;">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name.."><br>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email.."><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890"><br><br>
+    </fieldset>
+<fieldset>
+      <legend>Address</legend>
+      <label for="address">Address:</label><p></p>
+      <textarea id="address" name="address" placeholder="Your address.."></textarea><br>
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" placeholder="Your city.."><br>
+      <label for="postalcode">Postal Code:</label>
+      <input type="text" id="postalcode" name="postalcode" placeholder="Your postal code.."><br>
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="palestine">Palestine</option>
+        <option value="egypt">Egypt</option>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </fieldset>
+    <br>
+    <button type="sign"class="button">SIGN IN!</button>
+
+  </form>
+  </section>
+  <footer>
+    <p>Last Updated: March 29, 2024</p>
+    <p>Address: AL-Jehad.ST, Ramallah, Palestine</p>
+    <p>Customer Support: 0599231429 | support@nurstore.com</p>
+    <p><a href="contactt.html">Contact Us</a></p>
+</footer>
+<style>
+
+ .button {
+  display: inline-block;
+  padding: 10px 20px;
+ color: rgb(173, 66, 92);
+  text-decoration: none;
+  border-radius: 5px;
+ }
+             
+footer {
+    background-color: #FFC0CB; /* Baby pink color */
+    padding: 15px; /* Add padding for spacing */
+}
+</style>
+</body>
+</html>
