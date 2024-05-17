@@ -22,7 +22,7 @@ Welcome to the README file for the Clothing E-Store Website project. This docume
 ![product Main page](readme/p22.png)
 
 ### Search Page
-- **Objective**: allows users to search for products. The user can select which fields to perform the filter search by Product Name, which regenerates the products' table with records matching the search criteria, or by Category or Price. For instance, if the user enters 80 in the search text field, selects price from the radio button, and then clicks the filter button.The search can combine Price and Category, or Name and category, or Name or Price.
+- **Objective**: allows users to search for products. The user can select which fields to perform the filter search by Product Name, which regenerates the products' table with records matching the search criteria, or by Category or Price. For instance, if the user enters 80 in the search text field, selects price from the radio button, and then clicks the filter button.The search can combine Price and Category, or Name and category, or Name or Price..
   ![product Main page](readme/s1.png)
 ![product Main page](readme/s2.png)
 ![product Main page](readme/s3.png)
