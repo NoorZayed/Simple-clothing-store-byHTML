@@ -40,7 +40,7 @@ Welcome to the README file for the Clothing E-Store Website project. This docume
 - **Objective**: When the user clicks the add link, the request will be sent to the “add.php” script. The script is a self-reference script, the data is retrieved from the form and then stored in the database. The form's method attribute  set to POST and action to “add.php”. The product photo uploaded to a folder called “images”, only accept an image of type “jpeg”, and rename it to be the same as the prodcut ID. For instance, if you have a product with an ID of ‘112’, the file name should be ‘112.jpeg’. Also, you  save the file name in the database.
   ![product Main page](readme/add.png)
   
-### add Page
+### Edit Page
 - **Objective**:Edit allows the user to update editable product details: price, quantity, description, and product image when clicking a get request with the product ID sent to a script “edit.php.”  The edit script returns an HTML page with a form filled with the product’s details, which are retrieved from the database; the user should be able to change only the editable fields. Then, the user sends the new updated product details to the script “edit.php,” which updates the product's fields in the database. 
   ![product Main page](readme/e.png)
 
